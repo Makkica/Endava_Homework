@@ -1,0 +1,58 @@
+                             ====LOGIN PAGE LOCATORS =====
+username:
+    absolute path: /html/body/div[1]/div/div[2]/div[2]/form/div[1]/input
+    relative: // //input[@id="username"]
+
+password:
+    absolute path: /html/body/div[1]/div/div[2]/div[2]/form/div[2]/input
+    relative: //input[@id="password"]
+
+login:
+    absolute path: /html/body/div[1]/div/div[2]/div[2]/form/div[3]/div/input
+    relative path: //input [@value="Log In"]
+
+ create account:
+    absolute path: /html/body/div[1]/div/div[2]/div[2]/form/div[4]/a[1]
+    relative path: //*[@id="form"]/div[4]/a[1]
+                   //<a href="/register">Create account</a>
+
+                   ***ovo me buni. Koliko sam razumela, ovaj dole je relative path
+                   jer nema full adresu (https://www.blablabla.com) vec samo ovaj link.
+                   Sad nisam ni sigurna da li treba uopste za ove linkove da se pravi XPath.
+
+ forgot password:
+    absolute path: /html/body/div[1]/div/div[2]/div[2]/form/div[4]/a[2]
+    relative path: //*[@id="form"]/div[4]/a[2]
+                   //<a href="/forgotpassword">reset password</a>
+
+ upper right login button:
+    absolute path: /html/body/header/nav/div/ul[2]/li/a
+    relative path: //*[@id="headContainer"]/nav/div/ul[2]/li/a
+                   //<a href="/login"><span class="glyphicon glyphicon-log-in"></span> Log In</a>
+
+
+                            ========USER DETAILS========
+
+ Username:
+    absolute path: /html/body/div[1]/div/div/div[4]/div/div/div/div[2]/div/div[2]/p/span[1]
+    relative path: //*[text ()='Username: ']
+
+ First Name:
+    absolute path: /html/body/div[1]/div/div/div[4]/div/div/div/div[2]/div/div[2]/p/span[3]
+    relative path: //*[text ()='First Name: ']
+
+ Last Name:
+    absolute path: /html/body/div[1]/div/div/div[4]/div/div/div/div[2]/div/div[2]/p/span[5]
+    relative path: //*[text ()='Last Name: ']
+
+ Created at:
+    absolute path: /html/body/div[1]/div/div/div[4]/div/div/div/div[2]/div/div[2]/p/span[7]
+    relative path: /*[text ()='Created at: ']
+
+ About:
+    absolute path: /html/body/div[1]/div/div/div[4]/div/div/div/div[2]/div/div[2]/span[1]
+    relative path: /*[text ()='About: ']
+
+ Close button:
+    absolute path: /html/body/div[1]/div/div/div[4]/div/div/div/div[3]/button
+    relative path: //button [@type="button"]
